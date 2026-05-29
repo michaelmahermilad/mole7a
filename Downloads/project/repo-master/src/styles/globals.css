@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+  @font-face {
+  font-family: 'Aref Ruqaa';
+  src: url(../ArefRuqaa-Bold.ttf) format('truetype');
+ }
+body{
+  background-image: url('/background.png');
+  background-size:cover;
+  background-position:left top;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This keeps the background fixed */
+min-height: 100vh;
+}
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.headerMain {
+  /* Default styles */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* For smooth changes */
+}
+
+.headerMain.sticky {
+  position: sticky; /* Or sticky */
+  top: 0;
+  width: 100%;
+  background-color: #222; /* Darker background on scroll */
+  padding: unset 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional shadow */
+}
+
+.logo {
+  /* Default styles for the logo */
+  width: 99%; /* Example height */
+  transition: all 0.5s ease;
+}
+
+.headerMain.sticky .logo {
+  width: 100%;
+  margin: auto; /* Smaller logo on sticky header */
+}
+
+    .ticker-text {
+      display: inline-block;
+      white-space: nowrap;
+      animation: slideIn 10s linear infinite;
+      font-size: 18px;
+      color: #333;
+    }
+
+   
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInUp {
+    animation: fadeInUp  1s ease-in-out ;
+ 
+}
+
+
+    .font-Aref{
+      font-family: 'Aref Ruqaa' ;
+      font-weight: 400;
+  font-style: normal;
+    }
