@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import logo from '../../public/logo.webp'
 import Image from "next/image";
+type Activity = {
+  time: string;
+  event: string;
+  place: string;
+  day: string;
+};
+
 const ChurchServicesTable = () => {
   const services = [
     {
@@ -49,7 +56,7 @@ const ChurchServicesTable = () => {
     },
   ];
 
-  const [selectedActivity, setSelectedActivity] = useState(null);
+  const [selectedActivity, setSelectedActivity] = useState<Activity | null>(null);
 
   // استخراج جميع أسماء الفعاليات بدون تكرار
   
@@ -81,9 +88,9 @@ const allActivities = services.flatMap((s) =>
 <Image src={logo} width={100} alt='M' className=' w-[100px] lg:w-[180px] mb-[12px]    '    />
 
       {/* Event Info */}
-      <h3 className="text-[#7E1215] text-[15px] font-bold text-[#7E1215] mb-4">{selectedActivity.event}</h3>
-      <p className="text-gray-700 text-[14px] mb-1">📅 {selectedActivity.day}</p>
-      <p className="text-gray-700 text-[14px] mb-1">🕓 {selectedActivity.time}  {selectedActivity.place}</p>
+      <h3 className="text-[#7E1215] text-[15px] font-bold text-[#7E1215] mb-4">{selectedActivity?.event}</h3>
+      <p className="text-gray-700 text-[14px] mb-1">📅 {selectedActivity?.day}</p>
+      <p className="text-gray-700 text-[14px] mb-1">🕓 {selectedActivity?.time}  {selectedActivity?.place}</p>
  
       {/* Optional Highlight */}
       <div className="mt-2 w-24 h-1 bg-[#7E1215] rounded-full animate-pulse"></div>
