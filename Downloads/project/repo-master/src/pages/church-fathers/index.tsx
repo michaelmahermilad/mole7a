@@ -77,7 +77,7 @@ import FR_MINA from './FR_MINA.png'
 
   return (
     <div>
-      <p className='text-center text-[15px] my-10 mt-8 '>برعاية الانبا اثانسيوس - اسقف عام كنائس القبة</p>
+      <p className='text-center text-[14px] my-10 mt-8 '>برعاية الانبا اثانسيوس - اسقف عام كنائس القبة</p>
 
       
       <Image src={anba_athanasius} width={200}alt='M' className='m-auto w-[130px] lg:w-[180px]   ' loading="lazy"/>
