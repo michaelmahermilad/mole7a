@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 import icon from './icon.gif'
 import BankCard from '@/Components/BankCard';
+import ChurchServicesTable from '@/Components/Schedule';
 function index() {
   return (
     <>
@@ -74,7 +75,7 @@ function index() {
 
           {/* Footer Section */}
 
-
+<ChurchServicesTable/>
         </div>
       </div>
 <BankCard/>
