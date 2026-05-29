@@ -65,7 +65,7 @@ const NavbarRed: React.FC = () => {
   <link rel="icon" href="/logo.webp" />
  
       </Head>
-      <div className="mx-auto   px-1 sm:px-4 lg:px-4 logo">
+      <div className="mx-auto text-[14px]  px-1 sm:px-4 lg:px-4 logo">
         <div className="relative flex h-13 items-center justify-between lg:h-9
         ">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -92,8 +92,8 @@ const NavbarRed: React.FC = () => {
                       });
                     }}
                     className={classNames(
-                      item.current ? 'bg-[#eeebca] text-[#7e1215] text-[17px] ' : 'text-white  hover:bg-[#eeebca36]  hover:text-white ',
-                      'rounded-md px-3 py-2  text-[17px]',
+                      item.current ? 'bg-[#eeebca] text-[#7e1215] text-[14px] ' : 'text-white  hover:bg-[#eeebca36]  hover:text-white ',
+                      'rounded-md px-3 py-2  text-[13px]',
                     )}
                   >
                     {item.name}
@@ -105,7 +105,7 @@ const NavbarRed: React.FC = () => {
 
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 ">
             <div >
-                <p className='hidden lg:block text-base   text-[white] mx-2 text-[18px]  '   >
+                <p className='hidden lg:block text-base text-[13px]  text-[white] mx-2   '   >
 .مَا أَحْلَى مَسَاكِنَكَ يَا رَبَّ الْجُنُودِ. تَشْتَاقُ نَفْسِي إِلَى دِيَارِ الرَّبّ     </p>
             </div>
             <button

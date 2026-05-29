@@ -11,11 +11,11 @@ function Footer() {
 
 
 
-	<div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row dark:divide-gray-600">
-		<ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
+	<div className="container  text-[13px] flex flex-col p-4 mx-auto md:p-8 lg:flex-row dark:divide-gray-600">
+		<ul className="self-center py-6 space-y-4 text-center text-[13px] sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
 			<li><a  href='/services'>خدمات كنسية</a></li>
 			<li><a  href='/church-fathers'>اباء الكنيسة</a></li>
-			<li><a  href='/about'>تاريخ الكggggنيسة</a></li>
+			<li><a  href='/about'>تاريخ كنيستنا</a></li>
 			<li><a href='/church-mother-mary-google-map-location'>الموقع الجغرافي</a></li>
 		 
  		</ul>
@@ -30,7 +30,7 @@ function Footer() {
   rel="noopener noreferrer"
   aria-label="YouTube"
   title="YouTube"
-  className="flex items-center justify-center w-10 h-10 rounded-full sm:w-12 sm:h-12 dark:bg-red-600 dark:text-gray-50 transition-transform transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-red-500"
+  className="flex items-center justify-center w-10 h-10 rounded-full  sm:w-12 sm:h-12 dark:bg-red-600 dark:text-gray-50 transition-transform transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-red-500"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
