@@ -74,7 +74,11 @@ import FR_MINA from './FR_MINA.png'
     },
   
   ]
-
+  const videos = [
+    "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F951761357210074%2F&show_text=false&width=267&t=0",
+    "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1768221320818787%2F&show_text=false&width=267&t=0",
+    "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100068620561703%2Fvideos%2F1915526612395469%2F&show_text=false&width=267&t=0",
+  ];
   return (
     <div>
       <p className='text-center text-[14px] my-10 mt-8 '>برعاية الانبا اثانسيوس - اسقف عام كنائس القبة</p>
@@ -85,7 +89,10 @@ import FR_MINA from './FR_MINA.png'
 
 
       <p className='text-center text-[15px] font-bold   my-7'>  الاباء الرعاة للكنيسة </p>
-      <div className="container mx-auto px-8 py-6 text-right ">
+
+
+  
+  <div className="container mx-auto px-8 py-6 text-right ">
         <div dir="rtl" className="grid  md:grid-cols-2 lg:grid-cols-3 gap-5 pb-7 mb-7 ">
           {fathersOfTheChurch.map((father) => (
             <div
@@ -111,6 +118,29 @@ import FR_MINA from './FR_MINA.png'
           ))}
         </div>
 
+        <div className="w-full text-center mb-8">
+  <h2 className="text-[14px]  font-bold ">
+    تابعوا خدماتنا الروحية عبر فيسبوك
+  </h2>
+ 
+</div>
+       <div className="flex flex-wrap gap-9 justify-center">
+      {videos.map((src, index) => (
+        <div
+          key={index}
+          className=" w-full  max-w-[300px]   lg:w-[18%]"
+        >
+          <iframe
+            src={src}
+            className="  h-[500px] rounded-lg"
+            width="267" height="400"  style={{overflow:'hidden'}}
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen
+            title={`Facebook Video ${index + 1}`}
+          />
+        </div>
+      ))}
+    </div>
 
                          
       </div>
