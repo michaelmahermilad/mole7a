@@ -124,15 +124,15 @@ import FR_MINA from './FR_MINA.png'
   </h2>
  
 </div>
-       <div className="flex flex-wrap gap-9 justify-center">
+       <div className="flex flex-wrap gap-9 justify-center ">
       {videos.map((src, index) => (
         <div
           key={index}
-          className=" w-full  max-w-[300px]   lg:w-[18%]"
+          className=" w-full  max-w-[330px]     lg:w-[18%]"
         >
           <iframe
             src={src}
-            className="  h-[500px] rounded-lg"
+            className="m-auto  h-[500px] rounded-lg"
             width="267" height="400"  style={{overflow:'hidden'}}
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
             allowFullScreen
