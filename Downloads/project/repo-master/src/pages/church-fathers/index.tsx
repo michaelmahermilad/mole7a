@@ -124,7 +124,7 @@ import FR_MINA from './FR_MINA.png'
   </h2>
  
 </div>
-       <div className="flex flex-wrap gap-9 justify-center ">
+       <div className=" w-full flex flex-wrap lg:gap-30 justify-center ">
       {videos.map((src, index) => (
         <div
           key={index}
@@ -133,7 +133,7 @@ import FR_MINA from './FR_MINA.png'
           <iframe
             src={src}
             className="m-auto  h-[500px] rounded-lg"
-            width="267" height="400"  style={{overflow:'hidden'}}
+            width="260" height="400"  style={{overflow:'hidden'}}
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
             allowFullScreen
             title={`Facebook Video ${index + 1}`}
