@@ -23,6 +23,7 @@ const NavbarRed: React.FC = () => {
   '/services': 'خدمات الكنيسة',
   '/church-fathers': 'الاباء الكهنة',
   '/church-mother-mary-google-map-location': 'موقع الكنيسة',
+    '/media': 'الميديا',
 };
 
   const currentPathname = router.pathname; // This gives you the route path, e.g., /blog/[slug]
@@ -43,8 +44,10 @@ const NavbarRed: React.FC = () => {
    const navigation = [
       { name: 'موقع الكنيسة', href: '/church-mother-mary-google-map-location', current: currentPathname === '/church-mother-mary-google-map-location' },
       { name: 'تاريخ الكنيسة', href: '/about', current: currentPathname === '/about' },
+         { name: 'الميديا', href: '/media', current: currentPathname === '/media' },
       { name: 'الاباء الكهنة', href: '/church-fathers', current: currentPathname === '/church-fathers' },
       { name: 'الخدمات', href: '/services', current: currentPathname === '/services' },
+    
     ]
 
   useEffect(() => {

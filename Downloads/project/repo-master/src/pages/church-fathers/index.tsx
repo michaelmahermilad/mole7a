@@ -9,6 +9,7 @@ import FR_MINA from './FR_MINA.png'
  import FR_AWAD from './FR_AWAD.png'
  import FR_LUKA from './FR_LUKA.png'
  import FR_ATHA from './FR_ATHA.png'
+  import Father from './Father-Ph.png'
  function index() {
   const fathersOfTheChurch = [
  
@@ -35,7 +36,7 @@ import FR_MINA from './FR_MINA.png'
       name: "أبونا القس فليمون محروس موريس",
       birthDate: "3 مارس 2009 م.",
       deathDate: "",
-       imgsource:""
+       imgsource:Father
     },
     {
       name: "أبونا القس ميخائيل فوزي توفيق",
@@ -118,30 +119,7 @@ import FR_MINA from './FR_MINA.png'
           ))}
         </div>
 
-        <div className="w-full text-center mb-8">
-  <h2 className="text-[14px]  font-bold ">
-    تابعوا خدماتنا الروحية عبر فيسبوك
-  </h2>
- 
-</div>
-       <div className=" w-full flex flex-wrap lg:gap-30 justify-center ">
-      {videos.map((src, index) => (
-        <div
-          key={index}
-          className=" w-full  max-w-[330px]     lg:w-[18%]"
-        >
-          <iframe
-            src={src}
-            className="m-auto  h-[500px] rounded-lg"
-            width="260" height="400"  style={{overflow:'hidden'}}
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen
-            title={`Facebook Video ${index + 1}`}
-          />
-        </div>
-      ))}
-    </div>
-
+  
                          
       </div>
   <p className='text-center text-[15px] font-bold   my-6'>  اباء الكنيسة المنتقلين </p>
