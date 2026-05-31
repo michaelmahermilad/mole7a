@@ -22,7 +22,7 @@ const [loaded, setLoaded] = React.useState(false);
 
 setLoaded(true);
 
-    }, 2000);
+    }, 2500);
   }, []);
 
   return (
@@ -35,11 +35,11 @@ setLoaded(true);
  
 
   
-  <div className="container mx-auto px-10 py-6 text-right mt-5">
+  <div className="container mx-auto px-10 py-6 text-right lg:mt-5">
     
 
         <div className="w-full text-center mx-auto mb-8">
-  <h2 className="text-[15px]  font-bold text-red-900   mb-4">
+  <h2 className="text-[15px]  font-bold text-red-900   lg:mb-4">
     تابعوا خدماتنا الروحية عبر فيسبوك
   </h2>
  
@@ -67,8 +67,12 @@ setLoaded(true);
 ):(
 
     <div className="w-full text-center mx-auto mb-8">
-  <h2 className="text-[15px]  font-bold text-red-900   mb-200">
+  <h2 className="text-[14px]  font-bold text-red-900   mb-200">
     جاري تحميل الفيديوهات 
+
+    <div className="loader mx-auto mt-10"></div>
+
+    
   </h2> 
   </div>
 )
@@ -89,6 +93,4 @@ setLoaded(true);
 
 export default index
 
-function setloaded(arg0: boolean) {
-         throw new Error('Function not implemented.');
-     }
+ 
