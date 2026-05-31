@@ -65,14 +65,18 @@ setLoaded(true);
 
 
     </div>
+    
       <a
   href="https://www.facebook.com/people/%D9%83%D9%86%D9%8A%D8%B3%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D8%B9%D8%B0%D8%B1%D8%A7%D8%A1-%D9%85%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%84%D9%8A%D8%AD%D8%A9/100068620561703/?sk=reels_tab"
   target="_blank"
   rel="noopener noreferrer"
   className="   inline-block px-4 py-2 bg-red-900 text-white rounded-lg hover:bg-red-800"
 >
-  .. مشاهدة المزيد
-</a></div>
+✠ مشاهدة المزيد ✠ 
+</a>
+
+
+</div>
 ):(
 
     <div className="w-full text-center mx-auto mb-8">
@@ -88,7 +92,7 @@ setLoaded(true);
     
 
 }
-   t
+  
 
                          
       
