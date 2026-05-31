@@ -78,7 +78,7 @@ function index() {
 <ChurchServicesTable/>
         </div>
       </div>
-<BankCard/>
+ <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9JHkmujCUaDl6mzc_o-n2cy0kKgqd_Irk9KKw8LGE5x2NOQ/viewform?embedded=true" height="1000" width="100%" style={{margin: '0 auto'}} frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       <iframe allowFullScreen     src="https://heyzine.com/flip-book/93a14503a1.html#page/11" className='w-[100%] h-[100vh] flex justify-content m-auto' ></iframe>
 
     </>)
