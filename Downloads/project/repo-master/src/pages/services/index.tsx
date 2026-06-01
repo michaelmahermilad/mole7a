@@ -74,7 +74,7 @@ function index() {
           </section>
 
           {/* Footer Section */}
-<div className="container mx-auto px-10 py-6 text-right lg:mt-5   lg:flex lg:flex-row gap-x-10  justify-end items-center">
+<div className="container mx-auto lg:px-10 py-6 text-right  lg:mt-5   lg:flex lg:flex-row gap-x-10  justify-end items-center">
 <ChurchServicesTable/>
  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9JHkmujCUaDl6mzc_o-n2cy0kKgqd_Irk9KKw8LGE5x2NOQ/viewform?embedded=true" height="1200" width="100%" style={{margin: '20px auto'}}    >Loading…</iframe>
 

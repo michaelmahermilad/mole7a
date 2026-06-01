@@ -72,7 +72,7 @@ const allActivities = services.flatMap((s) =>
      {selectedActivity && (
   <div style={
 {zIndex:1000000}
-  } className="fixed inset-0 min-h-screen flex     z-50 bg-black/40">
+  } className="fixed inset-0 min-h-screen flex items-center justify-center z-50 bg-black/40">
     {/* Card */}
     <div className="relative bg-gray-100 border-0 border-[#7E1215] rounded-md shadow-6xl w-80 md:w-100 p-6 text-center flex flex-col items-center animate-fade-in">
       {/* Close button */}
