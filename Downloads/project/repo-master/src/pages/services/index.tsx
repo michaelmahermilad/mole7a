@@ -74,11 +74,14 @@ function index() {
           </section>
 
           {/* Footer Section */}
-
+<div className="container mx-auto px-10 py-6 text-right lg:mt-5   lg:flex lg:flex-row gap-x-10  justify-end items-center">
 <ChurchServicesTable/>
+ <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9JHkmujCUaDl6mzc_o-n2cy0kKgqd_Irk9KKw8LGE5x2NOQ/viewform?embedded=true" height="1200" width="100%" style={{margin: '20px auto'}}    >Loading…</iframe>
+
+  
+</div>
         </div>
       </div>
- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9JHkmujCUaDl6mzc_o-n2cy0kKgqd_Irk9KKw8LGE5x2NOQ/viewform?embedded=true" height="1000" width="100%" style={{margin: '0 auto'}}    >Loading…</iframe>
       <iframe allowFullScreen     src="https://heyzine.com/flip-book/93a14503a1.html#page/11" className='w-[100%] h-[100vh] flex justify-content m-auto' ></iframe>
 
     </>)
